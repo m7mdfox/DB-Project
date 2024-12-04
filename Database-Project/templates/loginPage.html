@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Mango SC</title>
+    <link rel="stylesheet" href="/static/loginPage.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="/static/Images/mango-sc-logo.png" alt="Mango SC Logo" class="logo">
+        <div class="nav-links">
+            <div class="news">
+                <span>News</span>
+            </div>
+            <div class="services">
+                <span>Services</span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="login-container">
+        <h1>Login</h1>
+        <form>
+            <div class="input-group">
+                <label>Email or phone</label>
+                <input type="text" required>
+            </div>
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" required>
+            </div>
+            
+            <p class="terms">
+                By continuing, you agree to the <a href="/templates/Terms.html">Terms of use</a> and <a href="/templates/privacyPolicy.html">Privacy Policy</a>.
+            </p>
+            
+            <a href="#" class="forgot-password">Forgot Password?</a>  <!-- link forget password page. -->
+            
+            <button type="submit" class="login-btn">Login</button>
+            
+            <p class="create-account">
+                Don't have an account? <a href="/templates/signUp.html">Create a new account</a>
+            </p>
+        </form>
+    </div>
+</body>
+</html>

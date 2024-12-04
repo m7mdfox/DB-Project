@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account - Mango SC</title>
+    <link rel="stylesheet" href="/static/signUp.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="/static/Images/mango-sc-logo.png" alt="Mango SC Logo" class="logo">
+        <div class="nav-links">
+            <div class="news">
+                <span>News</span>
+            </div>
+            <div class="services">
+                <span>Services</span>
+            </div>
+        </div>
+    </nav>
+    <div class="signup-container">
+        <h1>Create an account</h1>
+        <form>
+            <div class="name-group">
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="phone" id="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+            </div>
+            <div class="terms">
+                By continuing, you agree to the <a href="/templates/Terms.html">Terms of use</a> and <a href="/templates/privacyPolicy.html">Privacy Policy</a>.
+            </div>
+            <button type="submit">Create an account</button>
+        </form>
+    </div>
+</body>
+</html>

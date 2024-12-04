@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mango SC - Checkout</title>
+    <link rel="stylesheet" href="C:\Users\fcbmo\Desktop\Database-Project\static\checkout2.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="../static/Images/mango-sc-logo.png" alt="Mango SC Logo" class="logo">
+        <div class="nav-links">
+            <div class="news">
+                <span>News</span>
+            </div>
+            <div class="nav-services">
+                <span>Services</span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="checkout-section">
+        <div class="checkout-container">
+            <div class="progress-bar">
+                <div class="progress-step completed">
+                    <div class="step-circle">✓</div>
+                    <span>Buyer Overview</span>
+                </div>
+                <div class="progress-step completed">
+                    <div class="step-circle">✓</div>
+                    <span>Shopping Cart</span>
+                </div>
+                <div class="progress-step active">
+                    <div class="step-circle"></div>
+                    <span>Payment Method</span>
+                </div>
+                <div class="progress-step">
+                    <div class="step-circle"></div>
+                    <span>Order Confirmation</span>
+                </div>
+            </div>
+
+            <div class="product-summary">
+                <div class="product-image">
+                    <img src="../static/Images/totebag.png" alt="Tote Bags">
+                </div>
+                
+                <div class="payment-form">
+                    <h2>Payment Method</h2>
+                    
+                    <div class="payment-options">
+                        <div class="payment-card selected">
+                            <img src="../static/Images/card-icon.png" alt="Credit Card">
+                        </div>
+                        <div class="payment-cash">
+                            <img src="../static/Images/cash-icon.png" alt="Cash">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Card Number</label>
+                        <div class="card-input">
+                            <input type="text" placeholder="Enter card number">
+                            <div class="card-icons">
+                                <img src="../static/Images/visa.png" alt="Visa">
+                                <img src="../static/Images/mastercard.png" alt="Mastercard">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Card Holder</label>
+                        <input type="text" placeholder="Enter card holder name">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label>Month</label>
+                            <select>
+                                <option>MM</option>
+                            </select>
+                        </div>
+                        <div class="form-group half">
+                            <label>Year</label>
+                            <select>
+                                <option>YYYY</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>CVC</label>
+                        <input type="text" placeholder="Enter CVC">
+                    </div>
+
+                    <button class="confirm-btn">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../static/checkout1.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <img src="../static/Images/mango-sc-logo.png" alt="Mango SC Logo" class="logo">
+        <div class="nav-links">
+            <div class="news">
+                <span>News</span>
+            </div>
+            <div class="nav-services">
+                <span>Services</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Checkout Section -->
+    <section class="checkout-section">
+        <div class="checkout-container">
+            <!-- Progress Bar -->
+            <div class="progress-bar">
+                <div class="progress-step completed">
+                    <div class="step-circle">✓</div>
+                    <span>Buyer Overview</span>
+                </div>
+                <div class="progress-step active">
+                    <div class="step-circle"></div>
+                    <span>Shopping Cart</span>
+                </div>
+                <div class="progress-step">
+                    <div class="step-circle"></div>
+                    <span>Payment Method</span>
+                </div>
+                <div class="progress-step">
+                    <div class="step-circle"></div>
+                    <span>Order Confirmation</span>
+                </div>
+            </div>
+
+            <div class="checkout-layout">
+                <div class="product-image">
+                    <img src="../static/Images/totebag.png" alt="Tote Bags">
+                </div>
+                
+                <div class="product-summary">
+                    <!-- Order Details -->
+                    <div class="order-details">
+                        <!-- Subscription Item -->
+                        <div class="order-item">
+                            <div class="item-info">
+                                <h3>Subscription fees</h3>
+                                <span>Yearly Fees</span>
+                            </div>
+                            <div class="item-price">100$</div>
+                            <button class="remove-item">×</button>
+                        </div>
+
+                        <!-- T-Shirt Item -->
+                        <div class="order-item">
+                            <div class="item-info">
+                                <h3>T-Shirt</h3>
+                                <div class="item-details">
+                                    <span>Size: S Color: Navy</span>
+                                    <div class="quantity-controls">
+                                        <button class="quantity-btn">-</button>
+                                        <span>1</span>
+                                        <button class="quantity-btn">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-price">100$</div>
+                            <button class="remove-item">×</button>
+                        </div>
+
+                        <!-- Total -->
+                        <div class="order-total">
+                            <h3>Total</h3>
+                            <span>200$</span>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="action-buttons">
+                            <button class="clear-btn">Clear all</button>
+                            <button class="confirm-btn">Confirm</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
